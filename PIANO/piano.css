@@ -1,0 +1,82 @@
+body{
+    text-align: center;
+    background-image: url(images/woodbg.jpg);
+}
+.piano{
+    display: inline-flex;
+    padding: 100px 50px 20px;
+    margin-top: 0px;
+    background-color: rgb(38, 37, 37);
+    border-radius: 25px;
+}
+h1{
+    font-size: 5rem;
+    color: white;
+    padding-top: 30px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+}
+.white-key{
+    padding-top: 200px;
+    width: 60px;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+    border: 3px solid black;
+    box-shadow: 0 5px rgb(236, 232, 232);
+    cursor: pointer;
+}
+.black-key{
+    position: absolute;
+    background-color: black;
+    padding-top: 110px;
+    border: black;
+    border-radius: 0 0 10px 10px;
+    color: white;
+    width: 40px;
+    cursor: pointer;
+    box-shadow: 0 9px rgb(49, 48, 48);   
+}
+
+.black-key.b-1{
+    left: 387px;
+}
+.black-key.b-2{
+    left: 450px;
+}
+.black-key.b-3{
+    left: 570px;
+}
+.black-key.b-4{
+    left: 628px;
+}
+.black-key.b-5{
+    left: 688px;
+}
+.black-key.b-6{
+    right: 688px;
+}
+.black-key.b-7{
+    right: 628px;
+}
+.black-key.b-8{
+    right: 570px;
+}
+.black-key.b-9{
+    right: 450px;
+}
+.black-key.b-10{
+    right: 387px;
+}
+.pressed{
+   box-shadow: 0 0 5px white,
+   0 0 20px white,
+   0 0 50px white,
+   0 0 120px white;                
+}
+.bbpressed{
+    box-shadow: 0 0 5px black,
+    0 0 5px black,
+    0 0 5px black,
+    0 0 5px black;
+ }
+
